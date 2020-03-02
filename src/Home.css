@@ -1,0 +1,10 @@
+.home_header {
+  text-align: center;
+}
+
+.home__desc {
+  margin-left: 8vw;
+  margin-right: 8vw;
+  text-align: justify;
+  font-size: large;
+}
