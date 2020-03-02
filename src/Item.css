@@ -12,8 +12,16 @@
 .itemPic {
   width: 150px;
   height: 150px;
+  transition: 500ms ease-in-out;
 }
 
 .item__desc {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 23px;
+}
+
+.itemPic:hover {
+  width: 160px;
+  height: 160px;
 }
