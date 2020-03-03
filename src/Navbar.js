@@ -11,18 +11,18 @@ const Navbar = () => {
         className="navbar__logo"
       />
       <ul className="navbar__list">
-        <li className="navbar__listItem">
-          <Link to="/home">Home</Link>
-        </li>
-        <li className="navbar__listItem">
-          <Link to="/shop">Shop</Link>
-        </li>
-        <li className="navbar__listItem">
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li className="navbar__listItem">
-          <Link to="/Basket">Basket</Link>
-        </li>
+        <Link to="/home">
+          <li className="navbar__listItem">Home</li>
+        </Link>
+        <Link to="/shop">
+          <li className="navbar__listItem">Shop</li>
+        </Link>
+        <Link to="/blog">
+          <li className="navbar__listItem">Blog</li>
+        </Link>
+        <Link to="/Basket">
+          <li className="navbar__listItem">Basket</li>
+        </Link>
       </ul>
     </div>
   );
