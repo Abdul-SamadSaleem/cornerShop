@@ -1,0 +1,15 @@
+.blog {
+  text-align: center;
+}
+
+p {
+  margin-left: 8vw;
+  margin-right: 8vw;
+  text-align: justify;
+  font-size: large;
+}
+
+.blog__title {
+  text-align: center;
+  text-decoration: underline;
+}
