@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import ThemeContext from "./ThemeContext";
 
 const Navbar = () => {
+  const themes = useContext(ThemeContext);
+  const [theme, setTheme] = useState(themes);
+
+  const toggleTheme = () =>
+    theme === themes.light ? setTheme(themes.light) : setTheme(themes.dark);
+
   return (
     <div className="navbar">
       <img
@@ -24,6 +31,7 @@ const Navbar = () => {
           <li className="navbar__listItem">Basket</li>
         </Link>
       </ul>
+      <button onclick={toggleTheme}>CHANGE THEME</button>
     </div>
   );
 };
