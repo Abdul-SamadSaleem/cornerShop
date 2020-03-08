@@ -18,7 +18,7 @@ const Shop = () => {
       <Item
         img="https://cdn.shopify.com/s/files/1/0075/0459/2986/products/1_1200x1200_e2bf14f4-4ce0-4d0a-9af1-ea41ce815677_1200x1200.png?v=1579742538"
         alt="basic air pods"
-        desc="Basic Air Pods"
+        desc="Basic Air Pods P R O"
       />
       <Item
         img="https://images-na.ssl-images-amazon.com/images/I/71HADnKWaJL._SY355_.jpg"
